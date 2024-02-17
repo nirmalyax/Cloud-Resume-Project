@@ -1,6 +1,9 @@
 # Résumé using AWS
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 46c9532 (readme)
 ![alt text](aws.png)
 
 ## Overview
