@@ -31,6 +31,27 @@ cd your-resume-repo
 - Log in to the AWS Management Console.
 - Navigate to the S3 service.
 - Create a new S3 bucket with a unique name.
+- Copy the bucket policy and change the bucket name accordingly.
+
+```bash
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PublicReadGetObject",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Resource": [
+        "arn:aws:s3:::your-bucket-name/*"
+      ]
+    }
+  ]
+}
+```
+
 - Upload your résumé HTML file and any other assets to the bucket.
 
 ### 2. Configure Route 53 for Custom Domain
