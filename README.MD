@@ -19,7 +19,7 @@ Before starting the project, make sure you have the following:
 To get started, clone this GitHub repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-resume-repo.git
+https://github.com/nirmalyax/Cloud-Resume-Project.git
 
 cd your-resume-repo
 ```
