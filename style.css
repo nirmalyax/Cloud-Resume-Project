@@ -134,12 +134,20 @@ a {
 }
 .downloadBtn {
 	display: block;
-	text-decoration: underline;
-	font-size: 1.6rem;
+	text-decoration: none;
+	font-size: 2rem;
+	padding: 1rem 2rem;
 	margin-top: 1rem;
+	cursor: pointer;
+	border: 2px solid var(--primary-color);
+	border-radius: 25px;
+	color:var(--primary-color);
+	background-color: black;
 }
 .downloadBtn:hover {
-	color: var(--primary-color);
+	background-color: #4d4c4c;
+	transition: ease-in 0.3s;
+	
 }
 @media only screen and (max-width: 768px) {
 	.profile_container {
