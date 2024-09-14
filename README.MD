@@ -8,6 +8,8 @@ This project involves creating a personal online résumé using AWS services, in
 
 Link : https://resumee.nirmalyax.dev/
 
+https://roadmap.sh/projects/single-page-cv
+
 ## Prerequisites
 
 Before starting the project, make sure you have the following:
