@@ -6,6 +6,8 @@
 
 This project involves creating a personal online résumé using AWS services, including S3, Route 53, CloudFront, and ACM (Amazon Certificate Manager). This setup ensures a secure, scalable, and highly available website for showcasing your résumé.
 
+Link : https://resumee.nirmalyax.dev/
+
 ## Prerequisites
 
 Before starting the project, make sure you have the following:
